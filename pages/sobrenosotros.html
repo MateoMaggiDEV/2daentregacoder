@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sobre Nosotros - Marketing Digital</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Tu CSS personalizado (opcional) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar responsivo -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="imagenes/images.png" alt="Logo" style="height:50px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarContent" aria-controls="navbarContent" 
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+         <ul class="navbar-nav ms-auto">
+           <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+           <li class="nav-item"><a class="nav-link active" aria-current="page" href="sobrenosotros.html">Sobre Nosotros</a></li>
+           <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+           <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+           <li class="nav-item"><a class="nav-link" href="casosdeexito.html">Casos de Éxito</a></li>
+         </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido Principal -->
+  <main class="container my-5">
+    <!-- Sección introductoria -->
+    <div class="text-center mb-5">
+      <h1>Sobre Nosotros</h1>
+      <p class="lead">Conoce nuestra historia, misión y el equipo que hace posible nuestro éxito.</p>
+    </div>
+
+    <!-- Sección Historia: imagen y descripción en dos columnas -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <img src="imagenes/sobre-nosotros.jpg" alt="Nuestra oficina" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h2>Nuestra Historia</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur explicabo, harum aspernatur omnis magni, 
+          consequatur laborum exercitationem voluptate veniam provident tempore maiores voluptatum? Id asperiores atque nisi, 
+          illo animi sapiente?
+        </p>
+        <p>
+          Desde nuestros inicios, hemos trabajado con pasión para transformar ideas en realidades digitales, poniendo a 
+          nuestros clientes en el centro de cada proyecto.
+        </p>
+      </div>
+    </div>
+
+    <!-- Sección Equipo: cards de integrantes -->
+    <section class="mb-5">
+      <h2 class="text-center mb-4">Nuestro Equipo</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Card Miembro 1 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagenes/miembro1.jpg" class="card-img-top" alt="Miembro 1">
+            <div class="card-body text-center">
+              <h5 class="card-title">Juan Pérez</h5>
+              <p class="card-text">CEO & Fundador</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card Miembro 2 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagenes/miembro2.jpg" class="card-img-top" alt="Miembro 2">
+            <div class="card-body text-center">
+              <h5 class="card-title">María López</h5>
+              <p class="card-text">Directora de Marketing</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card Miembro 3 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagenes/miembro3.jpg" class="card-img-top" alt="Miembro 3">
+            <div class="card-body text-center">
+              <h5 class="card-title">Carlos Ramírez</h5>
+              <p class="card-text">Director de Desarrollo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Misión y Visión -->
+    <div class="row align-items-center">
+      <div class="col-md-6 order-md-2">
+        <img src="imagenes/vision.jpg" alt="Visión" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6 order-md-1">
+        <h2>Nuestra Misión y Visión</h2>
+        <p>
+          Nuestra misión es impulsar a nuestros clientes hacia el éxito digital mediante soluciones innovadoras y personalizadas. 
+          Trabajamos en equipo para crear estrategias que marquen la diferencia en el mercado.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-4">
+    <div class="container text-center">
+      <img src="imagenes/images.png" alt="Logo" class="mb-2" style="height:50px;">
+      <p class="mb-0">por Mateo Maggi 2025</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
