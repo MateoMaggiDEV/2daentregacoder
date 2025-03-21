@@ -88,3 +88,9 @@
     color: #666;
   }
   
+  .card-img-top {
+    height: 200px; /* o el valor que prefieras */
+    object-fit: cover;
+    width: 100%;
+  }
+  
