@@ -1,18 +1,95 @@
-/* Error: Undefined mixin.
- *   ,
- * 4 |     @include box-shadow($shadow);
- *   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   styles\scss\_layout.scss 4:5  @import
- *   styles\scss\style.scss 5:9    root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a   \2577 \a 4 \2502      @include box-shadow($shadow);\d\a   \2502      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   styles\\scss\\_layout.scss 4:5  @import\a   styles\\scss\\style.scss 5:9    root stylesheet";
+@charset "UTF-8";
+/* _reset.scss */
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* _base.scss */
+body {
+  background-color: #f7f7f7;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+/* _layout.scss */
+.menu {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.menu .logo {
+  height: 60px;
+  width: auto;
+  transition: transform 0.2s ease-in-out;
+}
+.menu .logo:hover {
+  transform: scale(1.05);
+}
+.menu nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+.menu nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+.menu nav a:hover {
+  color: #007bff;
+}
+
+/* _carousel.scss */
+.carousel-item img {
+  max-height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* _footer.scss */
+.abajo {
+  background-color: #fff;
+  border-top: 1px solid #eaeaea;
+  text-align: center;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}
+.abajo .logo {
+  height: 50px;
+  width: auto;
+  margin-bottom: 0.5rem;
+}
+.abajo p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* _components.scss */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
