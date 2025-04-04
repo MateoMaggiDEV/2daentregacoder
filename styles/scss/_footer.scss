@@ -1,0 +1,20 @@
+/* _footer.scss */
+.abajo {
+    background-color: $white;
+    border-top: 1px solid $border-color;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+  
+    .logo {
+      height: 50px;
+      width: auto;
+      margin-bottom: 0.5rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+      color: #666; // 
+    }
+  }
+  

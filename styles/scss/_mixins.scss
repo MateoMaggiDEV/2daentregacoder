@@ -1,0 +1,9 @@
+// _mixins.scss
+@mixin transition($property, $duration: 0.2s, $ease: ease-in-out) {
+    transition: $property $duration $ease;
+  }
+  
+  @mixin box-shadow($shadow) {
+    box-shadow: $shadow;
+  }
+  

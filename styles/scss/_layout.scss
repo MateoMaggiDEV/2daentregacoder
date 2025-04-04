@@ -1,0 +1,37 @@
+/* _layout.scss */
+.menu {
+    background-color: $white;
+    @include box-shadow($shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  
+    .logo {
+      height: 60px;
+      width: auto;
+      @include transition(transform);
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  
+    nav {
+      ul {
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+      }
+      a {
+        text-decoration: none;
+        color: $color-text;
+        font-size: 1rem;
+        font-weight: 500;
+        @include transition(color);
+        &:hover {
+          color: $color-accent;
+        }
+      }
+    }
+  }
+  

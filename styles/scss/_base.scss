@@ -1,0 +1,20 @@
+/* _base.scss */
+body {
+    background-color: $bg-light;
+    font-family: $font-base;
+    color: $color-text;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    color: $color-text;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+  }
+  
