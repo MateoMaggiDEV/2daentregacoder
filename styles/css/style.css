@@ -94,7 +94,7 @@ p {
 
 /*# sourceMappingURL=style.css.map */
 
-/* ===== Added tweaks for responsive & interactivity ===== */
+/* Responsive & interactivity tweaks */
 @media (max-width:576px){
   h1{font-size:1.75rem;}
   .btn{padding:.5rem 1rem;}
