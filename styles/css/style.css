@@ -93,3 +93,11 @@ p {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* ===== Added tweaks for responsive & interactivity ===== */
+@media (max-width:576px){
+  h1{font-size:1.75rem;}
+  .btn{padding:.5rem 1rem;}
+}
+a.btn,button.btn{transition:all .25s ease-in-out;}
+a.btn:hover,button.btn:hover{transform:scale(1.04);}

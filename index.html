@@ -1,102 +1,84 @@
-  <!DOCTYPE html>
-  <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Marketing Digital</title>
+ <!DOCTYPE html>
 
-    <!-- Bootstrap CSS (CDN sin integrity ni crossorigin) -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-
-
-    <link rel="stylesheet" href="styles/css/style.css" />
-
-  </head>
-  <body>
-  <header>
-    <!-- Menú de navegación con Bootstrap Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="imagenes/images.png" alt="Logo" style="height:50px;">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-                data-bs-target="#navbarNav" aria-controls="navbarNav" 
-                aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-            <li class="nav-item"><a class="nav-link" href="pages/sobrenosotros.html">Sobre Nosotros</a></li>
-            <li class="nav-item"><a class="nav-link" href="pages/servicios.html">Servicios</a></li>
-            <li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
-            <li class="nav-item"><a class="nav-link" href="pages/casosdeexito.html">Casos de éxito</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-    <!-- Contenido principal -->
-    <main class="container my-5">
-      <h1 class="text-center">Bienvenido a Digital Agency</h1>
-      <p class="text-center">
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Marketing Digital</title>
+<!-- Bootstrap CSS (CDN sin integrity ni crossorigin) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="styles/css/style.css" rel="stylesheet"/>
+<meta content="Sitio web de agencia digital: servicios de marketing, desarrollo y casos de éxito." name="description"/><meta content="agencia digital, marketing, desarrollo web, servicios TI, community management" name="keywords"/><link href="#" rel="canonical"/></head>
+<body>
+<header>
+<!-- Menú de navegación con Bootstrap Navbar -->
+<nav aria-label="Navegación principal" class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+<div class="container">
+<a class="navbar-brand" href="index.html">
+<img alt="Logo" decoding="async" loading="lazy" src="imagenes/images.png" style="height:50px;"/>
+</a>
+<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+<li class="nav-item"><a class="nav-link" href="pages/sobrenosotros.html">Sobre Nosotros</a></li>
+<li class="nav-item"><a class="nav-link" href="pages/servicios.html">Servicios</a></li>
+<li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
+<li class="nav-item"><a class="nav-link" href="pages/casosdeexito.html">Casos de éxito</a></li>
+</ul>
+</div>
+</div>
+</nav>
+</header>
+<!-- Contenido principal -->
+<main class="container my-5">
+<h1 class="text-center">Bienvenido a Digital Agency</h1>
+<p class="text-center">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus minima eos magni
         obcaecati magnam accusamus accusantium, delectus earum totam iusto assumenda in, sapiente vitae
         recusandae.
       </p>
-
-      <!-- Carrusel de Bootstrap -->
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <!-- Indicadores -->
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" 
-                  class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" 
-                  aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" 
-                  aria-label="Slide 3"></button>
-        </div>
-        <!-- Slides -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="imagenes/imagen1.jpg" class="d-block w-100" alt="Imagen 1">
-          </div>
-          <div class="carousel-item">
-            <img src="imagenes/imagen2.jpg" class="d-block w-100" alt="Imagen 2">
-          </div>
-          <div class="carousel-item">
-            <img src="imagenes/imagen3.jpg" class="d-block w-100" alt="Imagen 3">
-          </div>
-        </div>
-        <!-- Controles -->
-        <button class="carousel-control-prev" type="button" 
-                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" 
-                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
-      </div>
-    </main>
-
-    <!-- Footer con Bootstrap -->
-    <footer class="bg-dark text-light py-4">
-      <div class="container text-center">
-        <img src="imagenes/images.png" alt="logo" class="mb-2" style="height:50px;">
-        <p class="mb-0">por Mateo Maggi 2025</p>
-      </div>
-    </footer>
-
-    <!-- Bootstrap JS Bundle (CDN sin integrity ni crossorigin) -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    ></script>
-  </body>
-  </html>
+<!-- Carrusel de Bootstrap -->
+<div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+<!-- Indicadores -->
+<div class="carousel-indicators">
+<button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"></button>
+<button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"></button>
+<button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
+</div>
+<!-- Slides -->
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img alt="Imagen 1" class="d-block w-100" decoding="async" loading="lazy" src="imagenes/imagen1.jpg"/>
+</div>
+<div class="carousel-item">
+<img alt="Imagen 2" class="d-block w-100" decoding="async" loading="lazy" src="imagenes/imagen2.jpg"/>
+</div>
+<div class="carousel-item">
+<img alt="Imagen 3" class="d-block w-100" decoding="async" loading="lazy" src="imagenes/imagen3.jpg"/>
+</div>
+</div>
+<!-- Controles -->
+<button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button">
+<span aria-hidden="true" class="carousel-control-prev-icon"></span>
+<span class="visually-hidden">Anterior</span>
+</button>
+<button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button">
+<span aria-hidden="true" class="carousel-control-next-icon"></span>
+<span class="visually-hidden">Siguiente</span>
+</button>
+</div>
+</main>
+<!-- Footer con Bootstrap -->
+<footer class="bg-dark text-light py-4">
+<div class="container text-center">
+<img alt="logo" class="mb-2" decoding="async" loading="lazy" src="imagenes/images.png" style="height:50px;"/>
+<p class="mb-0">por Mateo Maggi 2025</p>
+</div>
+</footer>
+<!-- Bootstrap JS Bundle (CDN sin integrity ni crossorigin) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

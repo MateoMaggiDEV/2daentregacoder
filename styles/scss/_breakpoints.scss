@@ -1,0 +1,7 @@
+// _breakpoints.scss
+// Helpers for mobile‑first media queries
+@mixin mq($width) {
+  @media (max-width: $width) {
+    @content;
+  }
+}
